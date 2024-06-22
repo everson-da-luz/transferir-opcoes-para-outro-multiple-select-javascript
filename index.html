@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Transferir opções para outro multiple select - JavaScript</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main>
+            <form action="" method="">
+                <div class="container-list-left">
+                    <select name="users" multiple>
+                        <option value="1">Maria</option>
+                        <option value="2">Paulo</option>
+                        <option value="3">Joana</option>
+                        <option value="4">Pedro</option>
+                        <option value="5">Matheus</option>
+                    </select>
+                </div>
+                <div class="container-buttons">
+                    <button class="btn btn-one-to-right">></button>
+                    <button class="btn btn-all-to-right">>></button>
+                    <button class="btn btn-one-to-left"><</button>
+                    <button class="btn btn-all-to-left"><<</button>
+                </div>
+                <div class="container-list-right">
+                    <select name="selected-users" multiple>
+                    </select>
+                </div>
+            </form>
+        </main>
+        <script src="main.js"></script>
+    </body>
+</html>
